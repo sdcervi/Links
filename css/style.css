@@ -35,6 +35,20 @@ nav a:hover, nav a:focus {
 	height: auto;
 }
 
+.btn-commission {
+	border: 1px solid lightgray;
+}
+
+.btn-commission:active, .btn-commission:focus, .btn-commission:hover {
+	border: 1px solid black;
+}
+
+.btn-commission img {
+	width: 1.75em;
+	height: auto;
+	margin-right: 0.5em;
+}
+
 .btn-shops {
 	border: 1px solid lightgray;
 	margin: 0.75em 0;
