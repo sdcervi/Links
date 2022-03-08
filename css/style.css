@@ -1,83 +1,28 @@
-body {
-  background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
-}
+body { background-image: linear-gradient(180deg, #eee, #fff 100px, #fff); }
+.container { max-width: 960px; }
 
-.container {
-  max-width: 960px;
-}
+.logo { width: 40px; height: auto; }
 
-.logo {
-	width: 40px;
-	height: auto;
-}
+nav { width: 100%; display: flex; justify-content: space-around; }
+nav a { color: forestgreen; text-decoration: none; }
+nav a:hover, nav a:focus { text-decoration: underline; }
 
-nav {
-	width: 100%;
-	display: flex;
-	justify-content: space-around;
-}
+.social-icons { text-align: center; }
+.social-icons img { width: 3em; height: auto; }
 
-nav a {
-	color: forestgreen;
-	text-decoration: none;
-}
+.btn-commission { border: 1px solid lightgray; }
+.btn-commission:active, .btn-commission:focus, .btn-commission:hover { border: 1px solid black; }
+.btn-commission img { width: 1.75em; height: auto; margin-right: 0.5em; }
 
-nav a:hover, nav a:focus {
-	text-decoration: underline;
-}
+.btn-shops { border: 1px solid lightgray; margin: 0.75em 0; padding: 0.75rem; }
+.btn-shops:active, .btn-shops:focus, .btn-shops:hover { border: 1px solid black; }
+.btn-shops img { width: 1.75em; height: auto; margin-right: 0.5em; }
 
-.social-icons {
-	text-align: center;
-}
-
-.social-icons img {
-	width: 3em;
-	height: auto;
-}
-
-.btn-commission {
-	border: 1px solid lightgray;
-}
-
-.btn-commission:active, .btn-commission:focus, .btn-commission:hover {
-	border: 1px solid black;
-}
-
-.btn-commission img {
-	width: 1.75em;
-	height: auto;
-	margin-right: 0.5em;
-}
-
-.btn-shops {
-	border: 1px solid lightgray;
-	margin: 0.75em 0;
-	padding: 0.75rem;
-}
-
-.btn-shops:active, .btn-shops:focus, .btn-shops:hover {
-	border: 1px solid black;
-}
-
-.btn-shops img {
-	width: 1.75em;
-	height: auto;
-	margin-right: 0.5em;
-}
-
-.card {
-	margin-bottom: 1.5em;
-}
+.card { margin-bottom: 1.5em; }
 
 @media only screen and (min-width: 768px) {
-	.logo {
-		margin-right: 0.5em;
-	}
+	.logo { margin-right: 0.5em; }
 	
-	nav {
-		width: auto;
-	}
-	nav a {
-		margin-left: 2em;
-	}
+	nav { width: auto; }
+	nav a { margin-left: 2em; }
 }
