@@ -1,8 +1,4 @@
 # Links
-Custom-built link landing page
-
-
-# Links
 A custom-built link landing page for social media and websites
 
 ## Table of Contents
