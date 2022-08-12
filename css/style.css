@@ -9,16 +9,23 @@ nav a:hover, nav a:focus { text-decoration: underline; }
 
 .social-icons { text-align: center; }
 .social-icons img { width: 3em; height: auto; }
+.btn-container { margin-top: 0.5em; }
 
 .btn-commission { border: 1px solid lightgray; }
 .btn-commission:active, .btn-commission:focus, .btn-commission:hover { border: 1px solid black; }
 .btn-commission img { width: 1.75em; height: auto; margin-right: 0.5em; }
 
-.btn-shops { border: 1px solid lightgray; margin: 0.75em 0; padding: 0.75rem; }
+.btn-shops { border: 1px solid lightgray; margin: 0.75em 0; padding: 0.75rem; font-size: 0.85rem; }
 .btn-shops:active, .btn-shops:focus, .btn-shops:hover { border: 1px solid black; }
 .btn-shops img { width: 1.75em; height: auto; margin-right: 0.5em; }
 
 .card { margin-bottom: 1.5em; }
+p.card-text { display: none; }
+
+@media only screen and (min-width: 450px) {
+	.btn-shops { font-size: 1rem; }
+	p.card-text { display: block; }
+}
 
 @media only screen and (min-width: 768px) {
 	.logo { margin-right: 0.5em; }
