@@ -4,7 +4,7 @@ A custom-built link landing page for social media and websites
 ## Summary
 I built Links as an alternative to Linktree and other link-in-bio services.  As a professional web designer, I felt that this was another chance to showcase my work, and another opportunity to improve my customers' experience.
 
-Check it out today at [Links](https://links.stephaniecervi.net/).
+Check it out today at [Links](https://links.stephaniecervi.design/).
 
 ## Technologies
 Links was built using the Bootstrap 5.1 framework, HTML, CSS, and JavaScript.  I designed the interface using a mobile-first perspective to streamline the user experience on all device sizes.
