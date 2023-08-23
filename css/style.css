@@ -29,7 +29,7 @@ p.card-text { display: none; }
 .color-gallery img { max-width: 100%; height: auto; margin-bottom: 0.5em; }
 .color-gallery p { text-align: center; margin-bottom: 2em; }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 390px) {
 	.btn-shops { font-size: 1rem; }
 	p.card-text { display: block; }
 }
@@ -39,8 +39,4 @@ p.card-text { display: none; }
 	
 	nav { width: auto; }
 	nav a { margin-left: 2em; }
-}
-
-@media only screen and (max-width: 450px) {
-	.btn-shops { font-size: 1rem; }
 }
