@@ -23,8 +23,8 @@ nav a:hover, nav a:focus { text-decoration: underline; }
 .btn-shops img { width: 1.75em; height: auto; margin-right: 0.5em; }
 
 #products { margin-bottom: 3em; font-size: 0.85rem; }
-#products .col { margin: 0.75em 0; }
-#products img { max-width: 100%; border-radius: 5px; margin-bottom: 0.25em; }
+#products .col { margin: 0; padding: 0.1em 0.25em; }
+#products img { max-width: 100%; border-radius: 3px; margin-bottom: 0.25em; }
 #products a { text-decoration: none; color: black!important; }
 
 .card { margin-bottom: 1.5em; }
