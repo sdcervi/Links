@@ -18,7 +18,7 @@ nav a:hover, nav a:focus { text-decoration: underline; }
 .btn-commission img { width: 1.75em; height: auto; margin-right: 0.5em; }
 
 #shops { margin-bottom: 3em; }
-.btn-shops { border: 1px solid lightgray; margin: 0.75em 0; padding: 0.75rem; font-size: 0.85rem; }
+.btn-shops { border: 1px solid lightgray; margin: 0.75em 0; padding: 0.75rem; font-size: 1rem; }
 .btn-shops:active, .btn-shops:focus, .btn-shops:hover { border: 1px solid black; }
 .btn-shops img { width: 1.75em; height: auto; margin-right: 0.5em; }
 
@@ -27,15 +27,13 @@ nav a:hover, nav a:focus { text-decoration: underline; }
 #products img { max-width: 100%; border-radius: 3px; margin-bottom: 0.25em; }
 #products a { text-decoration: none; color: black!important; }
 
-.card { margin-bottom: 1.5em; }
-p.card-text { display: none; }
-
-.color-gallery { margin-top: 2em; }
-.color-gallery img { max-width: 100%; height: auto; margin-bottom: 0.5em; }
-.color-gallery p { text-align: center; margin-bottom: 2em; }
+#databases { margin-bottom: 3em; }
+.btn-databases { border: 1px solid lightgray; margin: 0.75em 0; padding: 0.75rem; font-size: 0.85rem; }
+.btn-databases:active, .btn-databases:focus, .btn-databases:hover { border: 1px solid black; }
+.btn-databases img { width: 1.75em; height: auto; margin-right: 0.5em; }
 
 @media only screen and (min-width: 392px) {
-	.btn-shops, #products { font-size: 1rem; }
+	.btn-databases { font-size: 1rem; }
 	p.card-text { display: block; }
 }
 
