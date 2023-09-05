@@ -22,10 +22,10 @@ nav a:hover, nav a:focus { text-decoration: underline; }
 .btn-shops:active, .btn-shops:focus, .btn-shops:hover { border: 1px solid black; }
 .btn-shops img { width: 1.75em; height: auto; margin-right: 0.5em; }
 
-#products { margin-bottom: 3em; font-size: 0.85rem; }
-#products .col { margin: 0; padding: 0.1em 0.25em; }
-#products img { max-width: 100%; border-radius: 3px; margin-bottom: 0.25em; }
-#products a { text-decoration: none; color: black!important; }
+#products, #commissions { margin-bottom: 3em; font-size: 0.85rem; }
+#products .col, #commissions .col { margin: 0; padding: 0.1em 0.25em; }
+#products img, #commissions img { max-width: 100%; border-radius: 3px; margin-bottom: 0.25em; }
+#products a, #commissions a { text-decoration: none; color: black!important; }
 
 #databases { margin-bottom: 3em; }
 .btn-databases { border: 1px solid lightgray; margin: 0.75em 0; padding: 0.75rem; font-size: 0.85rem; }
