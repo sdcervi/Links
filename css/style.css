@@ -2,9 +2,9 @@
 
 .logo { width: 40px; height: auto; }
 
-nav { width: 100%; display: flex; justify-content: space-around; clear: both; }
-nav a { color: forestgreen; text-decoration: none; }
-nav a:hover, nav a:focus { text-decoration: underline; }
+ul.jumplinks { list-style-type: none; padding-left: 0; }
+ul.jumplinks li { display: inline-block; padding: 0.25em 0.5em; }
+ul.jumplinks li a { text-decoration: none; }
 
 .social-icons { text-align: center; }
 .social-icons img { width: 3em; height: auto; }
@@ -17,23 +17,24 @@ nav a:hover, nav a:focus { text-decoration: underline; }
 .btn-commission:active, .btn-commission:focus, .btn-commission:hover { border: 1px solid black; }
 .btn-commission img { width: 1.75em; height: auto; margin-right: 0.5em; }
 
-#shops { margin-bottom: 3em; }
+#shopsDiv { margin-bottom: 1.25em; }
 .btn-shops { border: 1px solid lightgray; margin: 0.75em 0; padding: 0.75rem; font-size: 1rem; }
 .btn-shops:active, .btn-shops:focus, .btn-shops:hover { border: 1px solid black; }
 .btn-shops img { width: 1.75em; height: auto; margin-right: 0.5em; }
 
-#products, #commissions { margin-bottom: 3em; font-size: 0.85rem; }
-#products .col, #commissions .col { margin: 0; padding: 0.1em 0.25em; }
-#products img, #commissions img { max-width: 100%; border-radius: 3px; margin-bottom: 0.25em; }
-#products a, #commissions a { text-decoration: none; color: black!important; }
+#products, #commissionsDiv { margin-bottom: 2em; font-size: 0.85rem; margin-top: 1em; }
+#products .col, #commissionsDiv .col { margin: 0; padding: 0.1em 0.25em; }
+#products img, #commissionsDiv img { max-width: 100%; border-radius: 3px; margin-bottom: 0.25em; }
+#products a, #commissionsDiv a { text-decoration: none; color: black!important; }
 
-#databases { margin-bottom: 3em; }
-.btn-databases { border: 1px solid lightgray; margin: 0.75em 0; padding: 0.75rem; font-size: 0.85rem; }
-.btn-databases:active, .btn-databases:focus, .btn-databases:hover { border: 1px solid black; }
-.btn-databases img { width: 1.75em; height: auto; margin-right: 0.5em; }
+#databases { margin-bottom: 2em; }
+#stocksites { margin-bottom: 4em; }
+.btn-databases, .btn-stocksites { border: 1px solid lightgray; margin: 0.75em 0; padding: 0.75rem; font-size: 0.85rem; }
+.btn-databases:active, .btn-databases:focus, .btn-databases:hover, .btn-stocksites:active, .btn-stocksites:focus, .btn-stocksites:hover { border: 1px solid black; }
+.btn-databases img, .btn-stocksites img { width: 1.75em; height: auto; margin-right: 0.5em; }
 
 @media only screen and (min-width: 392px) {
-	.btn-databases { font-size: 1rem; }
+	.btn-databases, .btn-stocksites { font-size: 1rem; }
 	p.card-text { display: block; }
 }
 
