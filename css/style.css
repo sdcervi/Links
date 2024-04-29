@@ -12,6 +12,9 @@ ul.jumplinks li a { text-decoration: none; }
 .btn-patreon { margin: 0.5em 0.25em; background-color: #FF424D; border-color: #FF424D; }
 .btn-patreon:active, .btn-patreon:focus, .btn-patreon:hover { background-color: #ff6871; border-color: #ff6871; }
 .btn-patreon img { height: 1em; width: 1em; margin-right: 0.25em; }
+.btn-portfolio { margin: 0.5em 0.25em; background-color: #198754; border-color: #198754; }
+.btn-portfolio:active, .btn-portfolio:focus, .btn-portfolio:hover { background-color: #006e3b; border-color: #006e3b; }
+.btn-portfolio img { height: 1.25em; width: 1.25em; margin-top: -0.25em; margin-right: 0.25em; }
 
 .btn-commission { border: 1px solid lightgray; }
 .btn-commission:active, .btn-commission:focus, .btn-commission:hover { border: 1px solid black; }
