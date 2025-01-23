@@ -6,7 +6,7 @@ ul.jumplinks { list-style-type: none; padding-left: 0; }
 ul.jumplinks li { display: inline-block; padding: 0.25em 0.5em; }
 ul.jumplinks li a { text-decoration: none; }
 
-.social-icons { display: flex; justify-content: center; gap: 0.8em; }
+.social-icons { display: flex; justify-content: center; gap: 0.8em; flex-flow: wrap; }
 .social-icons img { width: 3em; height: auto; margin-top: 0.2em; }
 .btn-container { margin-top: 0.5em; }
 .patreon button { margin: 0.5em 0.25em; background-color: #FF424D; border-color: #FF424D; }
